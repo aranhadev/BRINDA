@@ -1,0 +1,59 @@
+# Segredos e credenciais locais
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+certs/
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+
+# Dependências, builds e caches
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+*.log
+
+# Dados locais e bancos
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+postgres-data/
+db-data/
+data/
+tmp/
+
+# Firmware e ferramentas embarcadas
+.pio/
+firmware/.vscode/
+firmware/build/
+firmware/.cache/
+
+# Configuração e instruções de agentes
+.agents/
+.claude/
+.codex/
+.cursor/
+.aider*
+.github/copilot-instructions.md
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
+# Sistema operacional e IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

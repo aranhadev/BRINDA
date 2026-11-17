@@ -1,0 +1,38 @@
+{
+  "formatVersion": 2,
+  "name": "BRINDA-Aranha",
+  "createdAt": "2026-11-15T00:00:00.000Z",
+  "targets": {
+    "frontend": { "framework": "react", "buildTool": "vite", "pwa": true },
+    "backend": { "runtime": "node", "framework": "fastify" },
+    "database": "postgres"
+  },
+  "pages": [
+    {
+      "name": "home",
+      "path": "/",
+      "routeMode": "auto",
+      "layoutId": "layout-main",
+      "components": [
+        { "id": "home-title", "kind": "heading", "text": "BRINDA" },
+        { "id": "home-description", "kind": "paragraph", "text": "Projeto nativo Aranha Studio." }
+      ]
+    }
+  ],
+  "layouts": [
+    { "id": "layout-main", "name": "Principal", "components": [] }
+  ],
+  "dataComponents": [],
+  "endpoints": [
+    {
+      "id": "health",
+      "method": "GET",
+      "path": "/api/health",
+      "steps": [
+        { "kind": "set", "name": "ok", "value": true },
+        { "kind": "response", "status": 200, "body": "context" }
+      ]
+    }
+  ],
+  "tables": []
+}
