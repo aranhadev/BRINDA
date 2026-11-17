@@ -40,6 +40,35 @@ Esse recorte é inicial porque reúne dor operacional alta, necessidade de contr
 
 A métrica de valor não será “usuários cadastrados”. Para cada piloto, o BRINDA deve medir tempo de atendimento, pedidos ou consumos sem identificação, divergência de fechamento e adoção real pela equipe.
 
+## Tese de experiência do consumidor
+
+O BRINDA precisa resolver uma dor do consumidor final, além da dor operacional do estabelecimento: consumo sem clareza e experiências fragmentadas. Uma cobrança duplicada ou uma comanda que só aparece no fechamento deixa a pessoa sem prova, sem controle e sem caminho simples de correção.
+
+A hipótese de experiência é: **uma identidade de consumo voluntária e contínua permite entrar, consumir e pagar com mais clareza em diferentes locais que usam BRINDA, sem instalar um aplicativo novo a cada visita.**
+
+O cadastro único é uma conveniência, não uma autorização ampla para compartilhar dados. Cada evento ou estabelecimento deve explicar o que usa, para qual finalidade e por quanto tempo. O participante deve conseguir usar um modo convidado quando não quiser uma conta persistente.
+
+### Princípios de CX
+
+1. **Sem download obrigatório:** o primeiro acesso abre no navegador/PWA por link ou QR; a instalação é opcional.
+2. **Conta transparente em tempo real:** cada item mostra nome, valor, hora e estado; a pessoa vê a comanda antes do fechamento.
+3. **Correção simples:** um lançamento suspeito, como uma duplicidade, pode ser sinalizado na própria tela; o operador recebe o caso com o histórico da transação.
+4. **Identidade portátil com controle:** telefone, passkey, QR pessoal ou NFC podem reconhecer a pessoa, mas a informação compartilhada é mínima e contextual.
+5. **Consentimento legível:** termos e privacidade não podem ficar escondidos no fluxo; a pessoa precisa entender quando está criando uma conta BRINDA e quando está apenas participando de um evento.
+6. **Alternativa humana:** recepção e caixa precisam resolver exceções sem exigir que toda pessoa tenha smartphone, bateria ou familiaridade digital.
+
+### O ganho para cada lado
+
+| Participante | Estabelecimento |
+| --- | --- |
+| Vê o consumo antes de pagar | Tem menos contestação e retrabalho no caixa |
+| Não precisa instalar um app por local | Reconhece retornos sem redigitar cadastro |
+| Consegue questionar uma duplicidade com contexto | Tem trilha auditável para corrigir o lançamento |
+| Usa uma experiência familiar em novos parceiros | Aumenta confiança, conversão e recorrência |
+
+### MVP dessa tese
+
+No piloto, a conta do participante deve mostrar uma comanda ao vivo e um recibo após o pagamento. O BRINDA pode reconhecer um participante que optou por criar conta, mas não deve depender de uma rede de parceiros para funcionar. A promessa de “uma conta em todo lugar” só deve ser comunicada quando houver locais suficientes e uma política de dados consolidada.
 ## O que já existe como referência funcional
 
 O projeto Wappler original demonstra que a jornada desejada inclui:
