@@ -1,3 +1,3 @@
 # BRINDA
 
-> Em desenvolvimento.
+> Em desenvolvimento.`n>`n> Consumo presencial mais humano.

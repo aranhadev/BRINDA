@@ -8,6 +8,13 @@ O BRINDA reduz filas, perdas e incerteza no fechamento de eventos presenciais de
 
 Esta frase é uma hipótese. Ela só vira posicionamento definitivo após conversas com operadores e um piloto real.
 
+## Mensagem de produto
+
+> **O BRINDA torna o consumo em bares e eventos mais humano, com autoatendimento claro para clientes e uma operação mais ágil e confiável para as equipes.**
+
+Assinatura curta: **Consumo presencial mais humano.**
+
+“Organizador” continua sendo uma persona para pesquisa, configuração e permissões, mas não é a forma principal de apresentar o produto. A mensagem parte das pessoas que vivem a experiência: clientes e equipes.
 ## O problema
 
 Em eventos com bar, alimentação ou consumo controlado, a jornada costuma quebrar em ferramentas e processos independentes: lista de convidados ou ingresso na entrada, papel ou memória no consumo, cobrança no caixa e planilhas no fechamento. O resultado é fila no pico, consumo não registrado, erro de identificação, reconciliação manual e pouca visibilidade para decidir durante o evento.
