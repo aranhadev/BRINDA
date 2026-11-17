@@ -2,6 +2,8 @@
 
 **Status:** decisão de produto para o MVP · 15 de novembro de 2026
 
+> **Nota de escopo:** cashback e pagamentos não fazem parte do MVP do Hack Brasil. Este documento permanece como referência para uma evolução posterior do produto.
+
 ## Decisão
 
 O primeiro cashback do BRINDA é um **crédito promocional do estabelecimento de origem**. Ele é concedido após uma compra paga e confirmada, e só pode reduzir uma compra futura no mesmo estabelecimento.

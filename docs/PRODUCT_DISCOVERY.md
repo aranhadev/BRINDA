@@ -2,6 +2,8 @@
 
 **Status:** hipótese de produto em validação · 15 de novembro de 2026
 
+> **Nota de escopo:** este documento descreve a visão de produto e um piloto mais amplo. Ele não define o MVP do Hack Brasil, que exclui pagamentos e dados pessoais. Para a demo de competição, consulte [SPECS_MVP_HACKBRASIL.md](SPECS_MVP_HACKBRASIL.md).
+
 ## A hipótese em uma frase
 
 O BRINDA reduz filas, perdas e incerteza no fechamento de eventos presenciais de pequeno e médio porte ao reunir credenciamento, consumo, pagamento individual via Pix e visão operacional ao vivo em um único fluxo leve.
@@ -141,7 +143,7 @@ A pulseira ou tag identifica a conta; ela não armazena saldo, dados de cartão 
 - estoque completo e ERP;
 - integração com várias adquirentes;
 - hardware próprio ou firmware como requisito do piloto;
-- analytics preditivo e IA;
+- análises preditivas;
 - suporte a eventos de grande escala.
 
 ## Hardware e firmware C

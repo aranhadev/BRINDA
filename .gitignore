@@ -2,7 +2,9 @@
 .env
 .env.*
 !.env.example
+.envrc
 secrets/
+.secrets/
 credentials/
 certs/
 *.pem
@@ -12,6 +14,10 @@ certs/
 *.p12
 *.pfx
 *.jks
+*.age
+*.tfvars
+*.tfstate
+*.tfstate.*
 
 # Dependências, builds e caches
 node_modules/
@@ -41,7 +47,7 @@ firmware/.vscode/
 firmware/build/
 firmware/.cache/
 
-# Configuração e instruções de agentes
+# Configurações locais de ferramentas
 .agents/
 .claude/
 .codex/
